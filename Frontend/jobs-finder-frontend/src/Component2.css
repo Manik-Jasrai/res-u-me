@@ -1,0 +1,71 @@
+.outer-frame {
+  border-radius: 16px;
+  background: #1260d5;
+  width: 1256px;
+  height: 601px;
+  flex-shrink: 0;
+  margin-top: 120px;
+}
+.outer {
+  background: #1260d5;
+  border-radius: 16px;
+  width: 1256px;
+  height: 601px;
+  flex-shrink: 0;
+  margin-top: 120px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.inner-frame {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 146px;
+  margin-top: 25px;
+}
+/* .i1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+} */
+.i1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lexend Deca";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.i2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lexend Deca";
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 10px;
+  font-weight: 300;
+  line-height: 32px; /* 133.333% */
+}
+.i3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lexend Deca";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 133.333% */
+}
+.i4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lexend Deca";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 100% */
+}
