@@ -32,3 +32,9 @@ Future Prospects include:
 -adding a cosine similarity between the users resume and the fetched job description to give the user a metric sense of how well their resume matches the job requirements. 
 -including more sources like naukri.com etc
 -improving the accuracy of the ML models
+
+Team Members:
+Alok Shukla - AI/ML
+Nikhil Saini - Frontend
+Manik Jasrai - Backend
+Suyash Mittal - AI/ML, UI/UX
