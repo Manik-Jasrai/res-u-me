@@ -1,9 +1,11 @@
 import sys
 import pickle
 import warnings
+import os
 warnings.filterwarnings('ignore')
+file_path = os.path.join(os.path.dirname(__file__) , 'knn_model.pkl')
+model, word_vectorizer = pickle.load(open(file_path, 'rb'))
 
-model, word_vectorizer = pickle.load(open('python-script\knn_model.pkl', 'rb'))
 text=sys.argv[1]
 # text = "manager manager director senior manager senior analyst financial manager senior  finance ing es finance ing finance finance 04 business finance 04 02 04 general financial  finance finance finance finance finance city state manager city state city state city state city state city state"
 word_features = word_vectorizer.transform([text])
