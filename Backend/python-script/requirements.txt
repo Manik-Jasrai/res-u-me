@@ -1,4 +1,4 @@
 sys
-pickle
+pickle-mixin
 warnings
-sklearn
+scikit-learn
