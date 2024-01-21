@@ -1,6 +1,7 @@
 import sys
 import pickle
 import warnings
+import sklearn
 import os
 warnings.filterwarnings('ignore')
 file_path = os.path.join(os.path.dirname(__file__) , 'knn_model.pkl')
