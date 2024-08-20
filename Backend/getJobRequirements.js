@@ -1,8 +1,6 @@
 const getJobRequirements = (jobProfiles) => {
     const jobRequirements = [];
     jobProfiles.forEach(profile => {
-
-        if (profile.Probability > 0) {
             const requirement = {
                 keyword: `${profile.Category}`,
                 location: 'India',
@@ -13,7 +11,6 @@ const getJobRequirements = (jobProfiles) => {
                 limit: '4'
             };
             jobRequirements.push(requirement);
-        };
     });
 
     return jobRequirements;
