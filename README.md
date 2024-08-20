@@ -1,4 +1,5 @@
 # res-u-me
+# [Live Website](https://res-u-me.vercel.app/)
 Make sure to have pip, python, node correctly installed on your system
 
 to launch the project:
