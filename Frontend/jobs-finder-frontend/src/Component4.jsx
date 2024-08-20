@@ -35,7 +35,7 @@ export default function Component4() {
   const handleChange = async (file) => {
     const formData = new FormData();
     formData.append("pdfFile", file);
-    const response = await fetch("http://localhost:3000/upload", {
+    const response = await fetch("https://res-u-me.onrender.com/upload", {
       method: "POST",
       body: formData,
     });
