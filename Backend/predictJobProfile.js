@@ -29,7 +29,7 @@ const runPrediction = async (classifiedData) => {
   try {
     const result = await predictJobProfile(classifiedData);
     console.log('Success:', result);
-    return JSON.parse(result.profile.replace(/'/g,"\""));
+    return JSON.parse(result.profile.replace(/'/g,"\"").replace(/\n/g, ''));
   } catch (error) {
     console.error('Error:', error);
   }
