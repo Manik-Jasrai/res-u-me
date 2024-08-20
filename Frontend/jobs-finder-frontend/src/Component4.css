@@ -110,8 +110,8 @@
   margin-left: 126px;
   width: auto;
   height: auto;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 40px;
 }
 .d5 {
   color: #000;
@@ -172,6 +172,8 @@
   font-weight: 200;
   line-height: normal;
   font-weight: 400;
+  /* position: absolute; */
+  /* bottom: 0px; */
 }
 .x5 {
   color: rgba(0, 0, 0, 0.6);
@@ -185,14 +187,14 @@
 }
 
 a {
-  color:#fff;
+  color: #fff;
 }
-a:hover{
-  color:#000;
+a:hover {
+  color: #000;
 }
-a:visited{
-  color:#fff;
+a:visited {
+  color: #fff;
 }
-.l1{
+.l1 {
   text-decoration: none;
 }

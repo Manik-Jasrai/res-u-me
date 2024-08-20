@@ -1,6 +1,6 @@
 .d1 {
   width: 1512px;
-  height: 1930px;
+  height: 1430px;
   flex-shrink: 0;
   background: rgba(0, 0, 0, 0.1);
   margin-top: 0%;
@@ -26,6 +26,8 @@
   background: #d9d9d9;
   margin-top: 17px;
   margin-left: 15px;
+  background-image: url("./assets/li.png");
+  background-size: contain;
 }
 .d4 {
   color: #1260d5;
@@ -39,7 +41,8 @@
   width: auto;
   height: auto;
   width: 500px;
-  height: 500px;
+  height: 40px;
+  overflow: hidden;
 }
 .d5 {
   color: #000;
@@ -113,11 +116,11 @@
 }
 
 a {
-  color:#fff;
+  color: #fff;
 }
-a:hover{
-  color:#000;
+a:hover {
+  color: #000;
 }
-a:visited{
-  color:#fff;
+a:visited {
+  color: #fff;
 }
