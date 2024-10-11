@@ -60,10 +60,8 @@ const Upload = ({ setJobs }) => {
         <h2 className="heading">Upload Your Resume</h2>
         <p className="para">and take the next step in your career</p>
         <img
-          src="src/assets/file.png"
+          src="/assets/file.png"
           loading="lazy"
-          sizes="(max-width: 767px) 60px, (max-width: 991px) 70px, 80px"
-          srcSet="src/assets/file-p-500.png 500w, src/assets/file.png 512w"
           alt="icon of file"
           className="img"
         />

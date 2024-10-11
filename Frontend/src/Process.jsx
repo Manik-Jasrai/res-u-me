@@ -6,10 +6,8 @@ const Process = () => {
       <div className="process-div">
         <div className="process-step">
           <img
-            src="src/assets/file.png"
+            src="/assets/file.png"
             loading="lazy"
-            sizes="(max-width: 767px) 60px, (max-width: 991px) 70px, 80px"
-            srcSet="src/assets/file-p-500.png 500w, src/assets/file.png 512w"
             alt="icon of file"
             className="process-img"
           />
@@ -26,10 +24,8 @@ const Process = () => {
         </div>
         <div className="process-step">
           <img
-            src="src/assets/ai.png"
+            src="/assets/ai.png"
             loading="lazy"
-            sizes="(max-width: 767px) 60px, (max-width: 991px) 70px, 80px"
-            srcSet="src/assets/ai-p-500.png 500w, src/assets/ai.png 512w"
             alt="icon of ai"
             className="process-img"
           />
@@ -47,10 +43,8 @@ const Process = () => {
         </div>
         <div className="process-step">
           <img
-            src="src/assets/suitcase.png"
+            src="/assets/suitcase.png"
             loading="lazy"
-            sizes="(max-width: 767px) 60px, (max-width: 991px) 70px, 80px"
-            srcSet="src/assets/suitcase-p-500.png 500w, src/assets/suitcase.png 512w"
             alt="icon of job"
             className="process-img"
           />

@@ -8,7 +8,7 @@ const Footer = () => {
           href="#hero"
           className="link top-div w-inline-block">
           <img
-            src="src/assets/arrow.png"
+            src="/assets/arrow.png"
             loading="lazy"
             alt="icon of up arrow"
             className="footer-icon"

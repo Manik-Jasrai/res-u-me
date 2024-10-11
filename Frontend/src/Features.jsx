@@ -16,16 +16,14 @@ const Features = () => {
             </p>
           </div>
           <img
-            src="src/assets/Artboard_31.png"
+            src="/assets/Artboard_31.png"
             loading="eager"
             sizes="(max-width: 479px) 100vw, (max-width: 767px) 224px, (max-width: 991px) 288px, 320px"
             srcSet="
-                src/assets/Artboard_31-p-500.png   500w,
-                src/assets/Artboard_31-p-800.png   800w,
-                src/assets/Artboard_31-p-1080.png 1080w,
-                src/assets/Artboard_31-p-1600.png 1600w,
-                src/assets/Artboard_31-p-2000.png 2000w,
-                src/assets/Artboard_31.png        3710w
+                /assets/Artboard_31-p-500.png   500w,
+                /assets/Artboard_31-p-800.png   800w,
+                /assets/Artboard_31-p-1080.png 1080w,
+                /assets/Artboard_31.png        3710w
               "
             alt=""
             className="feature-image"
@@ -33,16 +31,14 @@ const Features = () => {
         </div>
         <div className="feature-wrapper left hide-desktop">
           <img
-            src="src/assets/Artboard_31.png"
+            src="/assets/Artboard_31.png"
             loading="eager"
             sizes="100vw"
             srcSet="
-                src/assets/Artboard_31-p-500.png   500w,
-                src/assets/Artboard_31-p-800.png   800w,
-                src/assets/Artboard_31-p-1080.png 1080w,
-                src/assets/Artboard_31-p-1600.png 1600w,
-                src/assets/Artboard_31-p-2000.png 2000w,
-                src/assets/Artboard_31.png        3710w
+                /assets/Artboard_31-p-500.png   500w,
+                /assets/Artboard_31-p-800.png   800w,
+                /assets/Artboard_31-p-1080.png 1080w,
+                /assets/Artboard_31.png        3710w
               "
             alt=""
             className="feature-image"
@@ -58,15 +54,14 @@ const Features = () => {
         </div>
         <div className="feature-wrapper right">
           <img
-            src="src/assets/Artboard_30.png"
+            src="/assets/Artboard_30.png"
             loading="eager"
             sizes="(max-width: 479px) 100vw, (max-width: 767px) 224px, (max-width: 991px) 288px, 320px"
             srcSet="
-                src/assets/Artboard_30-p-500.png   500w,
-                src/assets/Artboard_30-p-800.png   800w,
-                src/assets/Artboard_30-p-1080.png 1080w,
-                src/assets/Artboard_30-p-1600.png 1600w,
-                src/assets/Artboard_30.png        3710w
+                /assets/Artboard_30-p-500.png   500w,
+                /assets/Artboard_30-p-800.png   800w,
+                /assets/Artboard_30-p-1080.png 1080w,
+                /assets/Artboard_30.png        3710w
               "
             alt=""
             className="feature-image"
@@ -88,14 +83,14 @@ const Features = () => {
             </p>
           </div>
           <img
-            src="src/assets/Artboard_17.png"
+            src="/assets/Artboard_17.png"
             loading="eager"
             sizes="(max-width: 479px) 100vw, (max-width: 767px) 336px, (max-width: 991px) 432px, 480px"
             srcSet="
-                src/assets/Artboard_17-p-500.png   500w,
-                src/assets/Artboard_17-p-800.png   800w,
-                src/assets/Artboard_17-p-1080.png 1080w,
-                src/assets/Artboard_17.png        2475w
+                /assets/Artboard_17-p-500.png   500w,
+                /assets/Artboard_17-p-800.png   800w,
+                /assets/Artboard_17-p-1080.png 1080w,
+                /assets/Artboard_17.png        2475w
               "
             alt=""
             className="feature-image"
@@ -103,14 +98,14 @@ const Features = () => {
         </div>
         <div className="feature-wrapper left hide-desktop">
           <img
-            src="src/assets/Artboard_17.png"
+            src="/assets/Artboard_17.png"
             loading="eager"
             sizes="100vw"
             srcSet="
-                src/assets/Artboard_17-p-500.png   500w,
-                src/assets/Artboard_17-p-800.png   800w,
-                src/assets/Artboard_17-p-1080.png 1080w,
-                src/assets/Artboard_17.png        2475w
+                /assets/Artboard_17-p-500.png   500w,
+                /assets/Artboard_17-p-800.png   800w,
+                /assets/Artboard_17-p-1080.png 1080w,
+                /assets/Artboard_17.png        2475w
               "
             alt=""
             className="feature-image"
@@ -125,15 +120,14 @@ const Features = () => {
         </div>
         <div className="feature-wrapper right">
           <img
-            src="src/assets/Artboard_39.png"
+            src="/assets/Artboard_39.png"
             loading="eager"
             sizes="(max-width: 479px) 100vw, (max-width: 767px) 224px, (max-width: 991px) 288px, 320px"
             srcSet="
-                src/assets/Artboard_39-p-500.png   500w,
-                src/assets/Artboard_39-p-800.png   800w,
-                src/assets/Artboard_39-p-1080.png 1080w,
-                src/assets/Artboard_39-p-1600.png 1600w,
-                src/assets/Artboard_39.png        3710w
+                /assets/Artboard_39-p-500.png   500w,
+                /assets/Artboard_39-p-800.png   800w,
+                /assets/Artboard_39-p-1080.png 1080w,
+                /assets/Artboard_39.png        3710w
               "
             alt=""
             className="feature-image"

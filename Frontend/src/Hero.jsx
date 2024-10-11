@@ -5,9 +5,9 @@ const Hero = () => {
       className="hero-section">
       <div className="hero-div">
         <img
-          src="src/assets/logo.png"
+          src="/assets/logo.png"
           loading="eager"
-          alt=""
+          alt="logo"
           className="hero-logo"
         />
         <h1 className="hero-heading">
@@ -18,11 +18,9 @@ const Hero = () => {
           rés-u-mé
         </h1>
         <img
-          src="./assets/line.png"
+          src="/assets/line.png"
           loading="eager"
-          sizes="(max-width: 479px) 100vw, (max-width: 767px) 168px, (max-width: 991px) 196px, 224px"
-          srcSet="src/assets/line-p-500.png 500w, src/assets/line.png 1857w"
-          alt=""
+          alt="decorative line"
           className="hero-decor"
         />
         <p className="hero-para">
