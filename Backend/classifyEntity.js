@@ -2,16 +2,18 @@
 const classifyEntity = async (keywords) => {
 
     //classifying each word with categories
-    const response = await fetch("https://3000-01k0a71nvspnswnbcathnbea0v.cloudspaces.litng.ai/",
-    {
-        method : 'POST',
-        headers : {"Authorization": "Basic Bitmen:bitmen@lnmhacks6"},
-        body : JSON.stringify({ "text": keywords }),
-        contentType : 'application/json'
-    });
-    const data = await response.text;
+    const response = await fetch("https://8000-01k0a71nvspnswnbcathnbea0v.cloudspaces.litng.ai/predict",
+        {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ "text": keywords })
+        });
+    const raw_data = await response.json();
+    const outputString = raw_data['output'];
 
-    
+    const validJsonString = outputString.replace(/'/g, '"').replace(/\b(\w+):/g, '"$1":');
+    const data = JSON.parse(validJsonString);
+
     const categories = {
         "Designation": "",
         "Skills": "",
