@@ -2,14 +2,14 @@
 const classifyEntity = async (keywords) => {
 
     //classifying each word with categories
-    const response = await fetch("https://api-inference.huggingface.co/models/suyashmittal/lnm-ner",
+    const response = await fetch("https://3000-01k0a71nvspnswnbcathnbea0v.cloudspaces.litng.ai/",
     {
         method : 'POST',
-        headers : {"Authorization" : "Bearer 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"},
-        body : JSON.stringify({"inputs" : keywords}),
+        headers : {"Authorization": "Basic Bitmen:bitmen@lnmhacks6"},
+        body : JSON.stringify({ "text": keywords }),
         contentType : 'application/json'
     });
-    const data = await response.json();
+    const data = await response.text;
 
     
     const categories = {
